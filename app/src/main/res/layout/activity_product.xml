@@ -43,7 +43,7 @@
                 app:srcCompat="@drawable/house2" />
 
             <Button
-                android:id="@+id/btb_home"
+                android:id="@+id/btn_home"
                 style="@android:style/Widget.Material.Button"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -63,11 +63,11 @@
                 android:layout_height="wrap_content"
                 android:text="Buy"
                 android:textAppearance="@android:style/TextAppearance.Material.Medium"
-                app:layout_constraintBottom_toBottomOf="@+id/btb_home"
+                app:layout_constraintBottom_toBottomOf="@+id/btn_home"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.5"
-                app:layout_constraintStart_toEndOf="@+id/btb_home"
-                app:layout_constraintTop_toTopOf="@+id/btb_home" />
+                app:layout_constraintStart_toEndOf="@+id/btn_home"
+                app:layout_constraintTop_toTopOf="@+id/btn_home" />
         </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.cardview.widget.CardView>
 </androidx.constraintlayout.widget.ConstraintLayout>
